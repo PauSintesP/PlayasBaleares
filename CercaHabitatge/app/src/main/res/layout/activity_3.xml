@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/TextTitol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activity 3 - Detail"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="16dp" />
+    <TextView
+        android:id="@+id/NomMunicipiDetall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Municipi: "
+        android:textSize="18sp"
+        android:paddingBottom="16dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_marginTop="32dp">
+
+        <Button
+            android:id="@+id/BotoLlista"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="List"
+            android:layout_marginEnd="16dp" />
+
+        <Button
+            android:id="@+id/BotoContacta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contactar"
+            android:layout_marginEnd="16dp" />
+
+        <Button
+            android:id="@+id/BotoSortirDetall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exit" />
+    </LinearLayout>
+
+</LinearLayout>

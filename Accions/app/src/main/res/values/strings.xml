@@ -1,0 +1,7 @@
+<resources>
+    <string name="Accions">Accions</string>
+    <string name="abrir_Web">Obrir pàgina web</string>
+    <string name="llamada">Trucar</string>
+    <string name="foto">Fer una foto</string>
+    <string name="web_url">https://rickroll.it/rickroll.mp4</string>
+</resources>

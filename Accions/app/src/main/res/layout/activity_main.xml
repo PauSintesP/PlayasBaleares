@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/fondo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:gravity="center"
+            android:text="@string/Accions"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/obrirweb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#6A0DAD"
+            android:text="Obrir pàgina web"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/botonLlamada"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#6A0DAD"
+            android:text="@string/llamada"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/botofoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:backgroundTint="#6A0DAD"
+            android:text="@string/foto"
+            android:textColor="#FFFFFF" />
+
+        <LinearLayout
+            android:id="@+id/gra"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/Maps"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@null"
+                android:contentDescription="Map"
+                android:src="@android:drawable/ic_dialog_map" />
+
+            <ImageButton
+                android:id="@+id/Play"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@null"
+                android:contentDescription="Play"
+                android:src="@drawable/_play" />
+
+            <ImageButton
+                android:id="@+id/salir"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@null"
+                android:contentDescription="Exit"
+                android:src="@drawable/logout_22dp_e8eaed_fill0_wght400_grad0_opsz24" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
